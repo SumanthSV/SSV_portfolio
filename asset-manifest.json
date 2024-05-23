@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/ssv_site/static/css/main.c7cf11d0.css",
-    "main.js": "/ssv_site/static/js/main.d3ae3b6b.js",
+    "main.css": "/ssv_site/static/css/main.6b4211f0.css",
+    "main.js": "/ssv_site/static/js/main.c976f483.js",
     "static/js/453.0c8cfebb.chunk.js": "/ssv_site/static/js/453.0c8cfebb.chunk.js",
     "static/media/globe.gif": "/ssv_site/static/media/globe.eb1641157bffd7912522.gif",
+    "static/media/Planner.png": "/ssv_site/static/media/Planner.9eaa761d6bb7e4984732.png",
     "static/media/calculator.jpg": "/ssv_site/static/media/calculator.d7ce59accb4b951bca21.jpg",
     "static/media/java_hr.jpg": "/ssv_site/static/media/java_hr.6790182bcc73738c8b2b.jpg",
     "static/media/problem_solving.jpg": "/ssv_site/static/media/problem_solving.b3ab5e1035342d81072d.jpg",
@@ -20,12 +21,12 @@
     "static/media/css.png": "/ssv_site/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/ssv_site/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ssv_site/index.html",
-    "main.c7cf11d0.css.map": "/ssv_site/static/css/main.c7cf11d0.css.map",
-    "main.d3ae3b6b.js.map": "/ssv_site/static/js/main.d3ae3b6b.js.map",
+    "main.6b4211f0.css.map": "/ssv_site/static/css/main.6b4211f0.css.map",
+    "main.c976f483.js.map": "/ssv_site/static/js/main.c976f483.js.map",
     "453.0c8cfebb.chunk.js.map": "/ssv_site/static/js/453.0c8cfebb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7cf11d0.css",
-    "static/js/main.d3ae3b6b.js"
+    "static/css/main.6b4211f0.css",
+    "static/js/main.c976f483.js"
   ]
 }

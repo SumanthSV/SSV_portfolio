@@ -35,14 +35,14 @@ const Home = () => {
                                 <MdOutlineArrowRightAlt size={25} />
                             </span>
                         </Link>
-                        <a target='_blank' rel="noreferrer"  href="mailto:sumanthsv04@gmail.com" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 p-3 flex items-center bg-gradient-to-r from-indigo-600 via-purple-600 to-orange-600 justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel="noreferrer"  href="mailto:sumanthsv04@gmail.com" smooth duration={500} data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000" className='group hover:scale-105 rounded h-8 p-2 flex items-center bg-gradient-to-r from-indigo-600 via-purple-600 to-orange-600 justify-center cursor-pointer mt-5 mb-28' >
 
                             <span className='pr-2'>
                                 <HiOutlineMail size={25} />
                             </span>
-                            Hire Me
+                            <p>Hire Me</p>
                         </a>
-                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/sumanth-sv-3b1507221/" smooth duration={550} data-aos="fade-up" data-aos-delay="1500" data-aos-duration="3000"  className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/sumanth-sv-3b1507221/" smooth duration={550} data-aos="fade-up" data-aos-delay="1500" data-aos-duration="3000"  className='group hover:scale-105 rounded w-auto h-8 w- px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
                             <span >
                             <BsLinkedin size={25}></BsLinkedin>
@@ -54,12 +54,12 @@ const Home = () => {
                             <BsGithub size={25}></BsGithub>
                             </span>
                         </a>
-                        {/* <a target='_blank' rel="noreferrer" href="" smooth duration={650} data-aos="fade-up" data-aos-delay="2500" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
+                        <a target='_blank' rel="noreferrer" href="https://www.instagram.com/sumanth_sv_04/" smooth duration={650} data-aos="fade-up" data-aos-delay="2500" data-aos-duration="2000" className='group hover:scale-105 rounded w-auto h-8 px-1 flex items-center bg-none justify-center cursor-pointer mt-5 mb-28' >
 
                             <span >
                             <BsInstagram size={25}></BsInstagram>
                             </span>
-                        </a> */}
+                        </a>
                     </div>
 
                 </div>
@@ -71,4 +71,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;

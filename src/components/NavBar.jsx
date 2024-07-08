@@ -25,7 +25,7 @@ const NavBar = () => {
         },
         {
             id: 5,
-            link: 'contact'
+            link: 'certificates'
         }
     ]
     return (
@@ -50,7 +50,7 @@ const NavBar = () => {
                 nav && (
 
                     <ul className='flex z-50 flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-200'>
-                        <Link smooth={true} duration={500} spy={true} exact='true' offset={-80} className='absolute m-6 top-0 right-0 cursor-pointer' onClick={() => setNav(!nav)} to="home">
+                        <Link smooth={true} duration={500} spy={true} exact='true' offset={-80} className='absolute m-6 top-0 right-0 cursor-pointer' onClick={() => setNav(!nav)} to="About">
                             <FaTimes size={30} />
                         </Link> 
                         {link.map(({ id, link }) => (

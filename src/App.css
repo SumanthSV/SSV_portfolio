@@ -38,8 +38,8 @@
 }
 
 
-/* fade in animation onload */
-/* .fade-in {
+/* fade in animation onload  */
+ .fade-in {
   opacity: 0;
   animation: fade-in 0.5s ease-in forwards;
 }
@@ -51,4 +51,4 @@
   100% {
     opacity: 1;
   }
-} */
+}

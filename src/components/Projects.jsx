@@ -2,6 +2,8 @@ import React,{useEffect} from 'react'
 import Chatbot from '../assets/projects/chatbot.png'
 import Calculator from '../assets/projects/calculator.jpg'
 import tictoctoe from '../assets/projects/tic-tac-toe.png'
+import Planner from '../assets/projects/Planner.png'
+import sukalpa from '../assets/projects/Sukalpa.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -13,6 +15,13 @@ const Projects = () => {
   const Projects = () => [
     {
       id: 1,
+      src:sukalpa,
+      desc: "Event : Sukalpa - 24",
+      demo: "https://gmu.ac.in/public/sukalpa24",
+      code:"", 
+    },
+    {
+      id: 1,
       src: tictoctoe,
       desc: "Tic-Toc-Toe game...",
       demo: "https://sumanthsv.github.io/tic-tac-toe/",
@@ -20,13 +29,20 @@ const Projects = () => {
     },
     {
       id: 2,
+      src: Planner,
+      desc: "Prioritize your work...",
+      demo: "https://sumanthsv.github.io/priority_planner/",
+      code: "https://github.com/SumanthSV/priority_planner"
+    },
+    {
+      id: 3,
       src: Calculator,
       desc: "simple Calculator...",
       demo: "https://sumanthsv.github.io/Calculator/",
       code: "https://github.com/SumanthSV/Calculator"
     },
     {
-      id: 3,
+      id: 4,
       src: Chatbot,
       desc: "Simple self chatting app",
       demo: "https://sumanthsv.github.io/chatting-app/",
@@ -36,8 +52,7 @@ const Projects = () => {
 
 
   return (
-    <div name="projects" className='h-auto max-h-screen-lg  bg-gradient-to-b from-black to-gray-800 w-full text-white
-     md:h-screen'>
+    <div name="projects" className='bg-gradient-to-b from-black to-gray-800 w-full text-white'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <h2 className='text-4xl font-bold inline border-b-4 border-gray-400'>Projects</h2>

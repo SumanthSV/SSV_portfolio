@@ -50,17 +50,6 @@ const Certificates = () =>{
           {
             Cert().map(({ id, src, title, issued}) => (
 
-              // <div data-aos="fade-in" data-aos-duration="15000" key={id} className='shadow-md shadow-green-600 rounded-lg'>
-              //   <img src={src} alt="Loading" className='rounded-md duration-200 hover:scale-105' style={{position: 'absolute', top: 0, left: 0, width: '100%',opacity:0.8}} />
-              //   <p className='p-2 text-justify font-extralight md:text-center '>{title}</p>
-              //   <div className='flex items-center justify-center'>
-                  
-              //     <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105  bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'>
-              //       <a target='_blank' href={issued}>View</a>
-              //     </button>
-              //   </div>
-              // </div>
-
               <div data-aos="fade-in" data-aos-duration="15000" key={id} className=''> <div className='relative overflow-hidden'> <img src={src} alt="Loading" className='rounded-md duration-200 hover:scale-105 w-full' /> <div className='absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-green-950 to-green-20 opacity-0.7'></div> <div className=' absolute bottom-10 left-2.5 w-full  text-white'> <p className='text-left text-xl'>{title}</p> </div> </div> <div className='flex items-center justify-end absolute bottom-0 right-0 w-full bg-gradient-to-t from-green-600 to-transparent rounded-lg'> <button className='px-6 py-3 m-4 duration-200 hover:scale-105 bg-gradient-to-l from-gray-700 to-blue-900 rounded-md'> <a target='_blank' href={issued}>View</a> </button> </div> </div>
 
 

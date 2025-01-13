@@ -1,9 +1,11 @@
 import React,{useEffect} from 'react'
-import Chatbot from '../assets/projects/chatbot.png'
-import Calculator from '../assets/projects/calculator.jpg'
+import Chatbot from '../assets/projects/chatbot.jpg'
+import Manager from '../assets/projects/Manager.jpg'
 import tictoctoe from '../assets/projects/tic-tac-toe.png'
 import Planner from '../assets/projects/Planner.png'
 import sukalpa from '../assets/projects/Sukalpa.png'
+import Yantrik from '../assets/projects/Yantrik.jpg'
+import Capstone from '../assets/projects/Copstone.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -21,32 +23,46 @@ const Projects = () => {
       code:"", 
     },
     {
-      id: 1,
+      id: 2,
       src: tictoctoe,
       desc: "Tic-Toc-Toe game...",
       demo: "https://sumanthsv.github.io/tic-tac-toe/",
       code: "https://github.com/SumanthSV/tic-tac-toe"
     },
     {
-      id: 2,
+      id: 3,
       src: Planner,
       desc: "Prioritize your work...",
       demo: "https://sumanthsv.github.io/priority_planner/",
       code: "https://github.com/SumanthSV/priority_planner"
     },
     {
-      id: 3,
-      src: Calculator,
-      desc: "simple Calculator...",
-      demo: "https://sumanthsv.github.io/Calculator/",
-      code: "https://github.com/SumanthSV/Calculator"
+      id: 4,
+      src: Manager,
+      desc: "Student CO's PO's manager",
+      demo: "https://github.com/SumanthSV/Co-s-manager",
+      code: "https://github.com/SumanthSV/Co-s-manager"
     },
     {
-      id: 4,
+      id: 5,
       src: Chatbot,
       desc: "Simple self chatting app",
       demo: "https://sumanthsv.github.io/chatting-app/",
       code: "https://github.com/SumanthSV/chatting-app"
+    },
+    {
+      id: 6,
+      src: Yantrik,
+      desc: "Event : Yankrik - 24",
+      demo: "https://yantrik.vercel.app/",
+      code: "https://github.com/SumanthSV/Yantrik"
+    },
+    {
+      id:7,
+      src: Capstone,
+      desc: "Online retail store",
+      demo: "https://capstone-two-xi.vercel.app/",
+      code: "https://github.com/SumanthSV/Capstone"
     },
   ]
 

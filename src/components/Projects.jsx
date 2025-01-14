@@ -6,6 +6,7 @@ import Planner from '../assets/projects/Planner.png'
 import sukalpa from '../assets/projects/Sukalpa.png'
 import Yantrik from '../assets/projects/Yantrik.jpg'
 import Capstone from '../assets/projects/Copstone.jpg'
+import Freelance from '../assets/projects/freelancing.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -63,6 +64,13 @@ const Projects = () => {
       desc: "Online retail store",
       demo: "https://capstone-two-xi.vercel.app/",
       code: "https://github.com/SumanthSV/Capstone"
+    },
+    {
+      id:7,
+      src: Freelance,
+      desc: "Freelancing (on-going)",
+      demo: "https://eureka-swart.vercel.app/",
+      code: "https://github.com/SumanthSV/freelancing"
     },
   ]
 

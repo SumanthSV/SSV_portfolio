@@ -1,6 +1,6 @@
 {
-  "homepage": "https://sumanthsv.github.io/ssv_site/",
-  "name": "react_port",
+  "homepage": ".",
+  "name": "ssv_site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

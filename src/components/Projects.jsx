@@ -74,11 +74,11 @@ const Projects = () => {
           <h2 className='text-4xl font-bold inline border-b-4 border-gray-400'>Projects</h2>
           <p className='py-6'>Check out some of my work </p>
         </div>
-        <div   className='grid sm:grid-cols-2 md:grid-cols-3 mb-20 gap-8 px-12 sm:px-0 '>
+        <div className='grid sm:grid-cols-2 md:grid-cols-3 mb-20 gap-8 px-12 sm:px-0 '>
           {
             Projects().map(({ id, src, desc, demo, code }) => (
 
-              <div data-aos="fade-in" data-aos-duration="15000" key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+              <div data-aos="slide-up" data-aos-duration="5" key={id} className='shadow-md shadow-gray-600 rounded-lg ease-in fade-in'>
                 <img src={src} alt="Ai" className='rounded-md duration-200 hover:scale-105' />
                 <p className='p-2 text-justify font-extralight'>{desc}</p>
                 <div className='flex items-center justify-center'>

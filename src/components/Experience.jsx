@@ -5,9 +5,9 @@ import javascript from '../assets/experience/javascript.png'
 import node from '../assets/experience/node.png'
 import C from '../assets/experience/c.png'
 import java from '../assets/experience/java.png'
-import python from '../assets/experience/python.png'
-import express from '../assets/experience/expess.jpeg'
-import postman from '../assets/experience/postman.jpeg'
+import react from '../assets/experience/React.png'
+import sql from '../assets/experience/sql.png'
+import mongo from '../assets/experience/mongodb.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -43,9 +43,9 @@ const Experience = () => {
         },
         {
             id: 5,
-            scr:express,
-            title:'Express JS',
-            style:'shadow-violet-500'
+            scr:sql,
+            title:'My-SQL',
+            style:'shadow-blue-500'
         },
         {
             id:6,
@@ -55,15 +55,15 @@ const Experience = () => {
         },
         {
             id: 7,
-            scr: python,
-            title: 'Python',
+            scr: react,
+            title: 'React',
             style: 'shadow-indigo-500'
         },
         {
             id:8,
-            scr:postman,
-            title:'Postman',
-            style:'shadow-orange-500'
+            scr:mongo,
+            title:'Mongo-DB',
+            style:'shadow-green-500'
         },
         {
             id: 9,
@@ -85,8 +85,8 @@ const Experience = () => {
                     {
                         techs().map(({ id, scr, title, style }) => (
 
-                            <div data-aos="zoom-in" data-aos-duration="500" key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                                <img src={scr} alt="" className='w-20 mx-auto' />
+                            <div data-aos="zoom-in" data-aos-duration="5" key={id} className={`shadow-md hover:scale-105 duration-5 py-2 rounded-lg ${style}`}>
+                                <img src={scr} alt="" className='mix-blend-screen w-20 mx-auto' />
                                 <p className='mt-4'>{title}</p>
                             </div>
                         ))
